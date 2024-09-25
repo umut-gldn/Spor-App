@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Palette -->
+    <color name="primaryColor">#4CAF50</color> <!-- Green -->
+    <color name="primaryLightColor">#80E27E</color> <!-- Light Green -->
+    <color name="primaryDarkColor">#087F23</color> <!-- Dark Green -->
+
+    <!-- Secondary Palette -->
+    <color name="secondaryColor">#FFFFFF</color> <!-- White -->
+    <color name="secondaryDarkColor">#000000</color> <!-- Black -->
+
+    <!-- Accent Colors -->
+    <color name="accentColor">#FFEB3B</color> <!-- Yellow -->
+    <color name="accentDarkColor">#FBC02D</color> <!-- Dark Yellow -->
+
+    <!-- Text Colors -->
+    <color name="textPrimaryColor">#212121</color> <!-- Dark Gray -->
+    <color name="textSecondaryColor">#757575</color> <!-- Medium Gray -->
+    <color name="textOnPrimaryColor">#FFFFFF</color> <!-- White -->
+
+    <!-- Background Colors -->
+    <color name="backgroundColor">#F5F5F5</color> <!-- Light Gray -->
+    <color name="surfaceColor">#FFFFFF</color> <!-- White -->
+
+
+
+</resources>

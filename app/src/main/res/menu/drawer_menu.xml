@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_fixtures"
+            android:icon="@drawable/ic_fixtures"
+            android:title="Fixtures" />
+        <item
+            android:id="@+id/nav_standings"
+            android:icon="@drawable/ic_standings"
+            android:title="Standings" />
+
+        <item
+            android:id="@+id/nav_top_goals"
+            android:icon="@drawable/ic_standings"
+            android:title="Top Goals" />
+        <item
+            android:id="@+id/nav_top_assists"
+            android:icon="@drawable/ic_standings"
+            android:title="Top Assists" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+</menu>

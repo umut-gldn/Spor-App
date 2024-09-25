@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">appSport</string>
+    <string name="Sign"><b><u>Sign Up</u></b></string>
+    <string name="Login"><b><u>Login</u></b></string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="home_team_logo">Home Team Logo</string>
+    <string name="away_team_logo">Away Team Logo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="away_team">Away Team</string>
+    <string name="_0_0">0 - 0</string>
+    <string name="date">Date</string>
+    <string name="home_team">Home Team</string>
+    <string name="fikstur_listesi">Fikstür Listesi</string>
+    <string name="nav_header_desc">Header description</string>
+    <string name="nav_header_title">Header title</string>
+    <string name="nav_header_subtitle">Header subtitle</string>
+
+</resources>

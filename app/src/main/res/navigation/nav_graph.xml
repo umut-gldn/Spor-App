@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/signUp">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.umut.appsport.fragments.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_signUp"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_home2_to_blank"
+            app:destination="@id/blank" />
+        <action
+            android:id="@+id/action_home2_to_fixtureFragment"
+            app:destination="@id/fixtureFragment" >
+
+    </action>
+        <action
+            android:id="@+id/action_home2_to_topAssistsFragment"
+            app:destination="@id/topAssistsFragment" />
+        <action
+            android:id="@+id/action_home2_to_topScorersFragment"
+            app:destination="@id/topScorersFragment" />
+        <action
+            android:id="@+id/action_home2_to_standingsFragment"
+            app:destination="@id/standingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.umut.appsport.fragments.SignUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUp_to_home2"
+            app:destination="@id/home2" />
+        <action
+            android:id="@+id/action_signUp_to_blank"
+            app:destination="@id/blank" />
+    </fragment>
+    <fragment
+        android:id="@+id/blank"
+        android:name="com.umut.appsport.fragments.Blank"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" >
+        <action
+            android:id="@+id/action_blank_to_signUp"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_blank_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fixtureFragment"
+        android:name="com.umut.appsport.fragments.FixtureFragment"
+        android:label="FixtureFragment"
+        tools:layout="@layout/fragment_fixture">
+
+    </fragment>
+    <fragment
+        android:id="@+id/topAssistsFragment"
+        android:name="com.umut.appsport.fragments.TopAssistsFragment"
+        android:label="fragment_top_assists"
+        tools:layout="@layout/fragment_top_assists" />
+    <fragment
+        android:id="@+id/topScorersFragment"
+        android:name="com.umut.appsport.fragments.TopScorersFragment"
+        android:label="fragment_top_scorers"
+        tools:layout="@layout/fragment_top_scorers" />
+    <fragment
+        android:id="@+id/standingsFragment"
+        android:name="com.umut.appsport.fragments.StandingsFragment"
+        android:label="StandingsFragment" />
+
+</navigation>

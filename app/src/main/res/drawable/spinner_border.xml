@@ -1,0 +1,7 @@
+<!-- res/drawable/spinner_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/white"/> <!-- İç renk -->
+    <stroke android:width="2dp" android:color="@android:color/darker_gray"/> <!-- Kenarlık rengi ve genişliği -->
+    <corners android:radius="4dp"/> <!-- Köşe yarıçapı -->
+    <padding android:left="5dp" android:top="5dp" android:right="5dp" android:bottom="5dp"/>
+</shape>
